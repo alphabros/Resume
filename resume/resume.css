@@ -1,0 +1,362 @@
+.spacer{
+	height:35px;
+	background: #243342;
+}
+.spacer span {
+	text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 4px;
+    color: #fff;
+}
+.home-banner{
+	height: 900px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-top: solid 5px #E87784;
+	border-bottom: solid 5px #E87784;
+	background-image: url('images/home-banner.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.box{
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 220px;
+}
+h1 {
+	font-size: 45px;
+	color: #fff;
+	font-family: "Krona One", sans-serif;
+	margin-left: 80px;
+}
+h1 small {
+	font-size: 45px;
+	margin-left: 140px;
+}
+h3 {
+	font-family: "Julius Sans One", sans-serif;
+	color: white;
+	margin-bottom: 5px;
+	margin-left: 80px;
+}
+h4, .section{
+	font-family: "Lexend Peta", sans-serif;
+	letter-spacing: 8px;
+	font-weight: 900;
+	margin-left: 40px;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 100px;
+	color: #E77784;
+	text-shadow: 
+        1px 1px 0 #fff, 
+        -1px -1px 0 #fff, 
+        1px -1px 0 #fff, 
+        -1px 1px 0 #fff; 
+}
+p {
+	text-align: center;
+	font-family: "Krona One", sans-serif;
+	text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    line-height: 2em;
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: #417083bd;
+}
+.section {
+	font-size: 20px;
+    text-align: center;
+    background: #417083bd;
+    display: block;
+    letter-spacing: 5px;
+    margin-top: 10px !important;
+    width: 220px;
+    margin: 0 auto;
+}
+.left-sidebar {
+	border-right: 8px solid #E87784;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.left-sidebar .box-content {
+	margin-bottom: 10px;
+}
+.left-sidebar .title {
+	font-family: "Lexend Peta", sans-serif;
+	color: #000;
+	border-bottom: solid 5px #000;
+	margin-left: 10px;
+	font-size: 20px;
+	line-height: 1.6em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.left-sidebar i {
+	font-size: 20px;
+	color: #E77784;
+}
+.left-sidebar p{
+	font-family: "Kantumruy Pro", sans-serif;
+	font-size: 18px;
+	margin-left: 20px ;
+	background: none;
+	text-align: left;
+	color: #000;
+	font-weight: 600px;
+	margin-top: 5px;
+	text-transform: none;
+	margin-bottom: 5px;
+}
+.left-sidebar .location{
+	background-color: #417083;
+	border-radius: 10px;
+}
+.left-sidebar .location ul,
+.footer ul{
+	color: #fff;
+    line-height: 2em;
+    padding-left: 40px !important;
+    padding: 10px 0;
+}
+.right-sidebar {
+	background-color: #417083;
+	color: #fff;
+}
+.right-sidebar .box-content {
+  position: relative;
+  padding-left: 40px; 
+  margin: 40px; 
+}
+
+.right-sidebar .box-content::after {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 0;
+  bottom: 0;
+  width: 4px;
+  background: white; 
+  z-index: 0; 
+}
+
+.right-sidebar .title::before,
+.right-sidebar .education::before {
+  content: '';
+  position: absolute;
+  top: 24px; 
+  left: -8px; 
+  transform: translateY(-50%); 
+  width: 20px; 
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid white; 
+  background: #243342; 
+  z-index: 1; 
+}
+.right-sidebar .education::before {
+	top: 55%;
+}
+.right-sidebar .title h1 {
+	margin-left: 0;
+	font-size: 40px;
+}
+.right-sidebar p {
+	width: 100%;
+	text-align: left;
+	font-family: "Kantumruy Pro", sans-serif;
+	font-size: 21px;
+	text-transform: none;
+	background: none;
+	margin-top: 0;
+}
+.right-sidebar .content{
+	background-color: #6999ab;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+.right-sidebar .education {
+	margin-top: 35px;
+	color: #fff;
+}
+.right-sidebar small {
+	margin: 10px !important;
+	display: block;
+}
+.footer {
+	background-color: #417083;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-top: solid 5px #E87784;
+	border-bottom: solid 5px #E87784;
+	padding: 0 20px;
+}
+.footer h1 {
+	text-align: left;
+	margin-left: 0;
+	font-size: 35px;
+	padding-top: 20px;
+}
+.footer .experience,
+.footer .box-references {
+	background-color: #557e8e;
+	border-radius: 10px;
+}
+.footer .sub-title {
+	font-size: 16px;
+}
+.footer p,
+.footer small {
+	font-family: "Kantumruy Pro", sans-serif;
+	text-align: left;
+	margin-left: 0;
+	margin-top: 0;
+	font-weight: normal;
+	font-size: 16px;
+	text-transform: none;
+}
+.footer .center {
+	background: #fff;
+}
+.footer h5 {
+	font-family: "Lexend Peta", sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.footer .center ul {
+	color: #000;
+}
+.footer .center ul span {
+	font-weight: bold;
+}
+.footer .center ul li {
+	line-height: 1.6em;
+}
+.footer .box-references {
+	padding: 10px;
+	text-align: left;
+	color: #fff !important;
+	margin-bottom: 15px;
+}
+.footer .box-references h5 {
+	text-align: left;
+}
+.footer .box-references i {
+	color: #E87784 !important;
+}
+.footer .box-references * {
+	background: none !important;
+
+}
+@media screen and (max-width: 1024px) {
+	h4 { 
+		font-size: 65px !important; 
+	} 
+	.footer .col-md-12 { 
+		padding: 20px !important; 
+	}
+	h1,
+	h1 small {
+		font-size: 35px;
+	}
+	.right-sidebar .education::before {
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) { 
+	.home-banner{
+		background-image: url('images/mobile-home.png');
+		height: 100vh;
+		background-position: 50% 29%;
+	}
+	.box {
+		margin-top: 30px;
+	}
+	h3, h1 {
+		margin-left: 30px;
+		font-size: 25px;
+	}
+	h4 { 
+		font-size: 25px !important; 
+		text-align: right;
+		margin-top: 50%;
+	} 
+	.home-banner p,
+	.home-banner .section {
+		position: absolute;
+		margin: 0;
+		right: 0;
+		margin-top: 10px;
+	}
+	.home-banner .section {
+		margin-top: 55px !important;
+	}
+	.right-sidebar .box-content {
+		margin: 20px;
+	}
+	.right-sidebar .title h1 {
+		font-size: 25px !important;
+	}
+	.right-sidebar .education::before {
+		display: none;
+	}
+	
+}
+
+
+.dropdown {
+    margin-top: 20px; 
+	font-size: 15px;
+    text-align: center;
+    display: block;
+    letter-spacing: 2px;
+    margin-top: 15px !important;
+    width: 220px;
+    margin: 0 auto;
+	font-weight: bold;
+}
+
+
+.dropbtn {
+    font-family: "Krona One", sans-serif;
+    background-color: #e87784cb; 
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+	font-weight: bold;
+	border: 2px solid #E87784; 
+    border-radius: 5px; 
+}
+
+
+.dropdown-content {
+    display: none; 
+    position: absolute; 
+    background-color:#e8778481; 
+    min-width: 200px; 
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+.dropdown-content .button {
+    font-family: "Krona One", sans-serif; 
+    color:white;
+    padding: 10px 15px; 
+    text-align: left;
+    text-decoration: none; 
+    display: block; 
+	font-weight: bold;
+	border-bottom: 1px solid #dcdcdc;
+}
+.dropdown-content .button:hover {
+    background-color: #41adf0; 
+}
